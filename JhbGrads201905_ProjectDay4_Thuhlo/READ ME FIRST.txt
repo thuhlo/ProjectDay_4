@@ -1,0 +1,20 @@
+VERY IMPORTANT
+Please replace the chinook.db file after every project run with the default copy
+Please replace file after every project run
+
+Before Running
+>> Make sure the chinook.db file is found in the project root
+>> Make sure the json.db file is found in the project root
+>> Import POM file dependencies
+
+Expected Project Run Crash
+>> NullPointer expected if no chinook.db file is not found
+>> NullPointer expected if no db.json file is not found 
+>> NullPointer expected if no connection to the database
+>> NullPointer expected if no connection to the json server
+
+Program Run
+>>Name of artist is hardcoded in the Step Defenition class
+>>IP Address of json server is hardcoded in the Step Defenition class
+>>Name of json server db is hardcoded in the Step Defenition class
+>> Run the  
